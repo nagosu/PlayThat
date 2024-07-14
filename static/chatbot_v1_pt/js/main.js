@@ -176,15 +176,7 @@ function MsgCreate() {
   var newText = document.createElement("p");
   newText.className = "text";
 
-  if (
-    categoryName.trim() === "성균관대 챗봇" ||
-    categoryName.trim() === "소방실기 공부" ||
-    categoryName.trim() === "영어 챗봇"
-  ) {
-    newText.innerHTML = "어~왔써ㅂ?<br />요즘 날씨 더운데 고생이 많네~";
-  } else {
-    newText.innerHTML = ""; // 다른 경우 빈 문자열로 초기화
-  }
+  newText.innerHTML = "어~왔써ㅂ?<br />요즘 날씨 더운데 고생이 많네~";
 
   // 구조를 조립
   newRow.appendChild(newText);

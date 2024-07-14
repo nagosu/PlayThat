@@ -749,6 +749,10 @@ aside.quickMenu .btnBot {
   align-items: center;
 }
 
+.modal-content p {
+  font-size: 14px;
+}
+
 .feedback-buttons {
   display: flex;
   justify-content: center;
