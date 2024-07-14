@@ -11,6 +11,15 @@ document
     }
   });
 
+// 엔터키 입력 시 버튼 클릭 이벤트 발생
+document
+  .getElementById("phone-number")
+  .addEventListener("keypress", (event) => {
+    if (event.key === "Enter") {
+      document.getElementById("login-button").click();
+    }
+  });
+
 // 모달 닫기 버튼 이벤트
 document
   .getElementById("modal-close-button")
