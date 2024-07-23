@@ -385,7 +385,7 @@ aside.quickMenu .btnBot {
 }
 
 .exit-button {
-  background-color: #674fff; /* 푸른색 */
+  background-color: #ff6347;
   color: #fff;
   border: none;
   border-radius: 5px;
@@ -397,7 +397,7 @@ aside.quickMenu .btnBot {
 }
 
 .exit-button:hover {
-  background-color: #5640d4; /* 더 밝은 푸른색 */
+  background-color: #5640d4;
 }
 
 /* line 134, scss/common.scss */
